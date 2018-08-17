@@ -39,11 +39,9 @@ post '/region' do
     if city == "Austin"
       return erb :Austin
     elsif city == "New_Orleans"
-      return erb :Neworleans
+      return erb :New_Orleans
     elsif city == "Atlanta"
       return erb :Atlanta
-    elsif city == "Nashville"
-      return erb :Nashville
     else
       return "wrong page"
     end
